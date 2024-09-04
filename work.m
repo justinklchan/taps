@@ -2,7 +2,12 @@
 clear
 close all
 
-dat1=audioread('table_pentap_38.wav');
+% dat1=audioread('table_tap_70.wav');
+% dat1=audioread('table_pentap_70_middle.wav');
+% dat1=audioread('table_pentap_38_middle.wav');
+% dat1=audioread('table_pentap_38.wav');
+% dat1=audioread('table_tap_38_middle.wav');
+dat1=audioread('table_tap_38.wav');
 
 chan1=dat1(:,1);
 chan2=dat1(:,2);

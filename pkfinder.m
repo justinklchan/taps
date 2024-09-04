@@ -6,7 +6,7 @@ locs2=[];
 
 for i=1:length(locs)
     for j=locs(i)-seekback:locs(i)
-        if chan1(j)>pks(i)*.02
+        if chan1(j)>pks(i)*.04
             pks2=[pks2 chan1(j)];
             locs2=[locs2 j];
             break
